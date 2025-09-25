@@ -1,341 +1,832 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>شريعة حمورابي للمحاماة</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="قوالب HTML مجانية" name="keywords">
-    <meta content="قوالب HTML مجانية" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="قوالب HTML مجانية" name="keywords" />
+    <meta content="قوالب HTML مجانية" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.png" rel="icon">
+    <link href="img/favicon.png" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <!-- بداية الهيدر -->
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-3 bg-secondary d-none d-lg-block">
-                <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                    <!-- <h1 class="m-0 display-4 text-primary text-uppercase">Justice</h1> -->
-                    <img style="width: 130px; height: 130px;" src="./img/favicon.png" />
-                </a>
-            </div>
-            <div class="col-lg-9">
-                <div class="row bg-white border-bottom d-none d-lg-flex">
-                    <div class="col-lg-7 text-left">
-                        <div class="h-100 d-inline-flex align-items-center py-2 px-3">
-                            <i class="fa fa-envelope text-primary mr-2"></i>
-                            <small>info@example.com</small>
-                        </div>
-                        <div class="h-100 d-inline-flex align-items-center py-2 px-2">
-                            <i class="fa fa-phone-alt text-primary mr-2"></i>
-                            <small>0770 754 7477</small>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 text-right">
-                        <div class="d-inline-flex align-items-center p-2">
-                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
-                    <a href="index.html" class="navbar-brand d-block d-lg-none">
-                        <!-- <h1 class="m-0 display-4 text-primary text-uppercase">Justice</h1> -->
-                        <img style="width: 130px; height: 130px;" src="./img/favicon.png" />
-                    </a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav mr-auto py-0">
-                            <a href="index.html" class="nav-item nav-link">الرئيسية</a>
-                            <a href="about.html" class="nav-item nav-link">من نحن</a>
-                            <a href="service.html" class="nav-item nav-link">مجالات العمل</a>
-                            <a href="team.html" class="nav-item nav-link active">المحامون</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">القائمة المنسدلة</a>
-                                <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="#" class="dropdown-item">عن الشركة</a>
-                                    <a href="#" class="dropdown-item">خدماتنا</a>
-                                    <a href="#" class="dropdown-item">تواصل معنا</a>
-                                </div>
-                            </div>
-                            <a href="contact.html" class="nav-item nav-link">تواصل معنا</a>
-                        </div>
-                        <a href="" class="btn btn-primary mr-3 d-none d-lg-block">احصل على عرض سعر</a>
-                    </div>
-                </nav>
-            </div>
+      <div class="row">
+        <div class="col-lg-3 bg-secondary d-none d-lg-block">
+          <a
+            href="index.html"
+            class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
+          >
+            <!-- <h1 class="m-0 display-4 text-primary text-uppercase">Justice</h1> -->
+            <img style="width: 130px; height: 130px" src="./img/favicon.png" />
+          </a>
         </div>
+        <div class="col-lg-9">
+          <div class="row bg-white border-bottom d-none d-lg-flex">
+            <div class="col-lg-7 text-left">
+              <div class="h-100 d-inline-flex align-items-center py-2 px-3">
+                <i class="fa fa-envelope text-primary mr-2"></i>
+                <small>info@example.com</small>
+              </div>
+              <div class="h-100 d-inline-flex align-items-center py-2 px-2">
+                <i class="fa fa-phone-alt text-primary mr-2"></i>
+                <small>0770 754 7477</small>
+              </div>
+            </div>
+            <div class="col-lg-5 text-right">
+              <div class="d-inline-flex align-items-center p-2">
+                <a
+                  class="btn btn-sm btn-outline-primary btn-sm-square mr-2"
+                  href=""
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a
+                  class="btn btn-sm btn-outline-primary btn-sm-square mr-2"
+                  href=""
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a
+                  class="btn btn-sm btn-outline-primary btn-sm-square mr-2"
+                  href=""
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  class="btn btn-sm btn-outline-primary btn-sm-square mr-2"
+                  href=""
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  class="btn btn-sm btn-outline-primary btn-sm-square mr-2"
+                  href=""
+                >
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+              <h1 class="m-0 display-4 text-primary text-uppercase">Justice</h1>
+            </a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarCollapse"
+            >
+              <div class="navbar-nav mr-auto py-0">
+                <a href="index.html" class="nav-item nav-link active"
+                  >الرئيسية</a
+                >
+                <a href="about.html" class="nav-item nav-link">من نحن</a>
+                <a href="service.html" class="nav-item nav-link"
+                  >مجالات العمل</a
+                >
+                <a href="team.html" class="nav-item nav-link">المحامون</a>
+                <div class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    >القائمة المنسدلة</a
+                  >
+                  <div class="dropdown-menu rounded-0 m-0">
+                    <a href="#" class="dropdown-item">عن الشركة</a>
+                    <a href="#" class="dropdown-item">خدماتنا</a>
+                    <a href="#" class="dropdown-item">تواصل معنا</a>
+                  </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+              </div>
+              <a href="" class="btn btn-primary mr-3 d-none d-lg-block"
+                >احصل على عرض سعر</a
+              >
+            </div>
+          </nav>
+        </div>
+      </div>
     </div>
     <!-- نهاية الهيدر -->
 
-
-    <!-- بداية رأس الصفحة -->
-    <div class="container-fluid bg-page-header" style="margin-bottom: 90px;">
-        <div class="container">
-            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-                <h3 class="display-3 text-white text-uppercase">المحامون</h3>
-                <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="">الرئيسية</a></p>
-                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">المحامون</p>
-                </div>
-            </div>
+    <!-- بداية الفيديو الرئيسي -->
+    <div class="container-fluid p-0 mb-5 pb-5">
+      <div class="position-relative" style="height: 100vh; min-height: 400px">
+        <video
+          class="position-absolute w-100 h-100"
+          style="object-fit: cover"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="img/carousel-1.jpg"
+        >
+          <source src="img/lawyer-video.mp4" type="video/mp4" />
+          متصفحك لا يدعم تشغيل الفيديو.
+        </video>
+        <div
+          class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+          style="z-index: 2; position: relative; height: 100%"
+        >
+          <div class="p-3" style="max-width: 900px">
+            <h4
+              class="text-white text-uppercase mb-4"
+              style="letter-spacing: 3px"
+            >
+              أفضل وكالة قانونية
+            </h4>
+            <h3 class="display-2 text-capitalize text-white mb-4">
+              نضالنا من أجل عدالتك
+            </h3>
+            <a class="btn btn-primary py-3 px-5 mt-2" href="#">احجز موعد</a>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- نهاية رأس الصفحة -->
+    <!-- نهاية الفيديو الرئيسي -->
 
-
-    <!-- بداية الفريق -->
+    <!-- بداية من نحن -->
     <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="text-center pb-2">
-                <h6 class="text-uppercase">محامونا</h6>
-                <h1 class="mb-4">تعرف على فريق المحامين</h1>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="bg-primary rounded" style="height: 200px;"></div>
-                    <div class="owl-carousel team-carousel position-relative" style="margin-top: -97px; padding: 0 30px;">
-                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
-                            <h5 class="mb-2 px-4">اسم المحامي</h5>
-                            <p class="mb-3 px-4">مجال التخصص</p>
-                            <div class="team-img position-relative">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
-                                <div class="team-social">
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
-                            <h5 class="mb-2 px-4">Attorney Name</h5>
-                            <p class="mb-3 px-4">Practice Area</p>
-                            <div class="team-img position-relative">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
-                                <div class="team-social">
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
-                            <h5 class="mb-2 px-4">Attorney Name</h5>
-                            <p class="mb-3 px-4">Practice Area</p>
-                            <div class="team-img position-relative">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
-                                <div class="team-social">
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
-                            <h5 class="mb-2 px-4">Attorney Name</h5>
-                            <p class="mb-3 px-4">Practice Area</p>
-                            <div class="team-img position-relative">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
-                                <div class="team-social">
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
-                            <h5 class="mb-2 px-4">Attorney Name</h5>
-                            <p class="mb-3 px-4">Practice Area</p>
-                            <div class="team-img position-relative">
-                                <img class="img-fluid" src="img/team-5.jpg" alt="">
-                                <div class="team-social">
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-5">
+            <img class="img-fluid rounded" src="img/about.jpg" alt="" />
+          </div>
+          <div class="col-lg-7 mt-4 mt-lg-0">
+            <h2
+              class="position-relative text-center bg-white text-primary rounded p-3 mt-4 mb-4 d-none d-lg-block"
+              style="width: 350px; margin-left: -205px"
+            >
+              25 سنة خبرة
+            </h2>
+            <h6 class="text-uppercase">تعرف علينا</h6>
+            <h1 class="mb-4">نقدم خدمات قانونية موثوقة وفعالة</h1>
+            <p>
+              نحن نقدم خدمات قانونية موثوقة وفعالة لعملائنا، مع سنوات من الخبرة
+              والاحترافية في جميع مجالات القانون.
+            </p>
+            <a href="" class="btn btn-primary mt-2">اعرف المزيد</a>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- نهاية الفريق -->
+    <!-- نهاية من نحن -->
+
+    <!-- بداية الخدمات -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-3">
+            <h6 class="text-uppercase">مجالات العمل</h6>
+            <h1 class="mb-4">مجالات تخصصنا</h1>
+            <p>
+              نقدم مجموعة واسعة من الخدمات القانونية في مختلف التخصصات لضمان
+              تلبية جميع احتياجات عملائنا.
+            </p>
+            <a href="" class="btn btn-primary mt-2">المزيد من الخدمات</a>
+          </div>
+          <div class="col-lg-9 pt-5 pt-lg-0">
+            <div class="bg-primary rounded" style="height: 200px"></div>
+            <div
+              class="owl-carousel service-carousel position-relative"
+              style="margin-top: -100px; padding: 0 30px"
+            >
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                  <i class="fa fa-2x fa-landmark"></i>
+                </div>
+                <h5 class="mb-4 px-4">القانون المدني</h5>
+                <p class="m-0">
+                  نقدم استشارات وحلولاً في جميع قضايا القانون المدني.
+                </p>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                  <i class="fa fa-2x fa-users"></i>
+                </div>
+                <h5 class="mb-4 px-4">قانون الأسرة</h5>
+                <p class="m-0">
+                  خبرة في قضايا الأسرة مثل الزواج والطلاق والحضانة.
+                </p>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                  <i class="fa fa-2x fa-hand-holding-usd"></i>
+                </div>
+                <h5 class="mb-4 px-4">القانون التجاري</h5>
+                <p class="m-0">خدمات قانونية للشركات والأعمال التجارية.</p>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center text-center bg-white rounded pt-4"
+              >
+                <div class="icon-box bg-secondary text-primary mt-2 mb-4">
+                  <i class="fa fa-2x fa-gavel"></i>
+                </div>
+                <h5 class="mb-4 px-4">القانون الجنائي</h5>
+                <p class="m-0">الدفاع عن القضايا الجنائية بمهنية عالية.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- نهاية الخدمات -->
 
     <!-- بداية الميزات -->
     <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-6" style="min-height: 500px;">
-                    <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 pt-5 pb-lg-5">
-                    <div class="feature-text bg-white rounded p-lg-5">
-                        <h6 class="text-uppercase">ميزاتنا</h6>
-                        <h1 class="mb-4">لماذا تختارنا</h1>
-                        <div class="d-flex mb-4">
-                            <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
-                                <h5 class="text-secondary m-0">01</h5>
-                            </div>
-                            <div class="ml-4">
-                                <h5>أفضل الممارسات القانونية</h5>
-                                <p class="m-0">نلتزم بأعلى معايير المهنة القانونية لتحقيق أفضل النتائج.</p>
-                            </div>
-                        </div>
-                        <div class="d-flex mb-4">
-                            <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
-                                <h5 class="text-secondary m-0">02</h5>
-                            </div>
-                            <div class="ml-4">
-                                <h5>الكفاءة والثقة</h5>
-                                <p class="m-0">نعمل بكفاءة عالية ونحظى بثقة عملائنا.</p>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
-                                <h5 class="text-secondary m-0">03</h5>
-                            </div>
-                            <div class="ml-4">
-                                <h5>النتائج التي تستحقها</h5>
-                                <p class="m-0">نحقق النتائج التي يتطلع إليها عملاؤنا.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6" style="min-height: 500px">
+            <div class="position-relative h-100 rounded overflow-hidden">
+              <img
+                class="position-absolute w-100 h-100"
+                src="img/feature.jpg"
+                style="object-fit: cover"
+              />
             </div>
+          </div>
+          <div class="col-lg-6 pt-5 pb-lg-5">
+            <div class="feature-text bg-white rounded p-lg-5">
+              <h6 class="text-uppercase">ميزاتنا</h6>
+              <h1 class="mb-4">لماذا تختارنا</h1>
+              <div class="d-flex mb-4">
+                <div
+                  class="btn-primary btn-lg-square px-3"
+                  style="border-radius: 50px"
+                >
+                  <h5 class="text-secondary m-0">01</h5>
+                </div>
+                <div class="ml-4">
+                  <h5>أفضل الممارسات القانونية</h5>
+                  <p class="m-0">
+                    نلتزم بأعلى معايير المهنة القانونية لتحقيق أفضل النتائج.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex mb-4">
+                <div
+                  class="btn-primary btn-lg-square px-3"
+                  style="border-radius: 50px"
+                >
+                  <h5 class="text-secondary m-0">02</h5>
+                </div>
+                <div class="ml-4">
+                  <h5>الكفاءة والثقة</h5>
+                  <p class="m-0">نعمل بكفاءة عالية ونحظى بثقة عملائنا.</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div
+                  class="btn-primary btn-lg-square px-3"
+                  style="border-radius: 50px"
+                >
+                  <h5 class="text-secondary m-0">03</h5>
+                </div>
+                <div class="ml-4">
+                  <h5>النتائج التي تستحقها</h5>
+                  <p class="m-0">نحقق النتائج التي يتطلع إليها عملاؤنا.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- نهاية الميزات -->
 
+    <!-- بداية الدعوة للعمل -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="bg-action rounded" style="height: 500px">
+          <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-lg-7 text-center">
+              <h1 class="text-white mb-4">
+                لنبدأ الآن. اتصل بنا للحصول على استشارة مجانية
+              </h1>
+              <a class="btn btn-primary py-3 px-5 mt-2" href="#"
+                >اتصل بنا الآن</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- نهاية الدعوة للعمل -->
+
+    <!-- بداية الفريق -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="text-center pb-2">
+          <h6 class="text-uppercase">محامونا</h6>
+          <h1 class="mb-4">تعرف على فريق المحامين</h1>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="bg-primary rounded" style="height: 200px"></div>
+            <div
+              class="owl-carousel team-carousel position-relative"
+              style="margin-top: -97px; padding: 0 30px"
+            >
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4"> علاء احمد المفرجي</h5>
+                <p class="mb-3 px-4"></p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/law/alaa.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">المحامي مصطفى عبدالله العبيدي</h5>
+                <p class="mb-3 px-4"></p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/law/mustafa.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">المحامي احمد عبدالله الطيار</h5>
+                <p class="mb-3 px-4"></p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/law/ahmed.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">المحامي سرمد عدنان</h5>
+                <p class="mb-3 px-4"></p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/law/sarmed.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">المحامي سيف سوران</h5>
+                <p class="mb-3 px-4"></p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/law/safe.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">المحامي هاشم ربيع الصميدعي</h5>
+                <p class="mb-3 px-4"></p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/law/hashem.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">الادارية تمارا نجاة</h5>
+                <p class="mb-3 px-4"></p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/law/tamara.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">المحامي عثمان علي الطيار</h5>
+                <p class="mb-3 px-4"></p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/law/othman.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">الاداري محمود ناجي</h5>
+                <p class="mb-3 px-4"></p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/law/mahmood.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div
+                class="team-item text-center bg-white rounded overflow-hidden pt-4"
+              >
+                <h5 class="mb-2 px-4">المحامي جمال اسماعيل المفرجي</h5>
+                <p class="mb-3 px-4"></p>
+                <div class="team-img position-relative">
+                  <img class="img-fluid" src="img/law/jamal.jpg" alt="" />
+                  <div class="team-social">
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-square mx-1" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- نهاية الفريق -->
+
+    <!-- بداية آراء العملاء -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="text-center pb-5">
+          <h6 class="text-uppercase">آراء العملاء</h6>
+          <h1 class="mb-5">ماذا يقول عملاؤنا</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel">
+          <div class="testimonial-item">
+            <div
+              class="testimonial-text position-relative bg-secondary text-light rounded p-5 mb-4"
+            >
+              لقد حصلت على خدمة ممتازة من فريق العدالة. أنصح الجميع بالتعامل
+              معهم.
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-1.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="pl-4">
+                <h5>اسم العميل</h5>
+                <p class="m-0">المهنة</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div
+              class="testimonial-text position-relative bg-secondary text-light rounded p-5 mb-4"
+            >
+              فريق محترف وخدمة سريعة ونتائج رائعة. شكراً لكم.
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-2.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="pl-4">
+                <h5>Client Name</h5>
+                <p class="m-0">Profession</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div
+              class="testimonial-text position-relative bg-secondary text-light rounded p-5 mb-4"
+            >
+              تعامل راقٍ واحترافية عالية في جميع التفاصيل.
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-3.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="pl-4">
+                <h5>Client Name</h5>
+                <p class="m-0">Profession</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div
+              class="testimonial-text position-relative bg-secondary text-light rounded p-5 mb-4"
+            >
+              أفضل مكتب محاماة تعاملت معه على الإطلاق.
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <img
+                class="img-fluid rounded-circle"
+                src="img/testimonial-4.jpg"
+                style="width: 80px; height: 80px"
+                alt=""
+              />
+              <div class="pl-4">
+                <h5>Client Name</h5>
+                <p class="m-0">Profession</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- نهاية آراء العملاء -->
 
     <!-- بداية الفوتر -->
-    <div class="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5" style="margin-top: 90px;">
-        <div class="row mt-5">
-            <div class="col-lg-4">
-                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
-                    <i class="fa fa-2x fa-map-marker-alt text-primary"></i>
-                    <div class="ml-3">
-                        <h5 class="text-white">مكتبنا</h5>
-                        <p class="m-0">العراق-كركوك-طريق بغداد</p>
-                    </div>
-                </div>
+    <div
+      class="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5"
+      style="margin-top: 90px"
+    >
+      <div class="row mt-5">
+        <div class="col-lg-4">
+          <div
+            class="d-flex justify-content-lg-center p-4"
+            style="background: rgba(256, 256, 256, 0.05)"
+          >
+            <i class="fa fa-2x fa-map-marker-alt text-primary"></i>
+            <div class="ml-3">
+              <h5 class="text-white">مكتبنا</h5>
+              <p class="m-0">العراق-كركوك-طريق بغداد</p>
             </div>
-            <div class="col-lg-4">
-                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
-                    <i class="fa fa-2x fa-envelope-open text-primary"></i>
-                    <div class="ml-3">
-                        <h5 class="text-white">راسلنا</h5>
-                        <p class="m-0">info@example.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
-                    <i class="fa fa-2x fa-phone-alt text-primary"></i>
-                    <div class="ml-3">
-                        <h5 class="text-white">اتصل بنا</h5>
-                        <p class="m-0">0770 754 7477</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="row pt-5">
-            <div class="col-lg-3 col-md-6 mb-5">
-                <a href="index.html" class="navbar-brand">
-                    <!-- <h1 class="m-0 mt-n2 display-4 text-primary text-uppercase">Justice</h1> -->
-                    <img style="width: 130px; height: 130px;" src="./img/law/taha.jpg" />
-                </a>
-                <p>نحن نقدم خدمات قانونية موثوقة وفعالة لعملائنا، مع سنوات من الخبرة والاحترافية في جميع مجالات القانون.</p>
-                <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
-                </div>
+        <div class="col-lg-4">
+          <div
+            class="d-flex justify-content-lg-center p-4"
+            style="background: rgba(256, 256, 256, 0.05)"
+          >
+            <i class="fa fa-2x fa-envelope-open text-primary"></i>
+            <div class="ml-3">
+              <h5 class="text-white">راسلنا</h5>
+              <p class="m-0">info@example.com</p>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-semi-bold text-primary mb-4">روابط شائعة</h4>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>الرئيسية</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>من نحن</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>الخدمات</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>المحامون</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>تواصل معنا</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-semi-bold text-primary mb-4">روابط سريعة</h4>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>الأسئلة الشائعة</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>المساعدة</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>الشروط</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>الخصوصية</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>خريطة الموقع</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-semi-bold text-primary mb-4">النشرة البريدية</h4>
-                <p>اشترك في النشرة البريدية ليصلك كل جديد من خدماتنا وأخبارنا.</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-0" style="padding: 25px;" placeholder="بريدك الإلكتروني">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary px-4">اشترك</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="row p-4 mt-5 mx-0" style="background: rgba(256, 256, 256, .05);">
-            <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a class="font-weight-bold" href="#">IN BOX</a>. جميع الحقوق محفوظة.</p>
+        <div class="col-lg-4">
+          <div
+            class="d-flex justify-content-lg-center p-4"
+            style="background: rgba(256, 256, 256, 0.05)"
+          >
+            <i class="fa fa-2x fa-phone-alt text-primary"></i>
+            <div class="ml-3">
+              <h5 class="text-white">اتصل بنا</h5>
+              <p class="m-0">0770 754 7477</p>
             </div>
-            <div class="col-md-6 text-center text-md-right">
-                <p class="m-0 text-white">تصميم بواسطة <a class="font-weight-bold" href="https://htmlcodex.com">HTML Codex</a></p>
-            </div>
+          </div>
         </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-lg-3 col-md-6 mb-5">
+          <a href="index.html" class="navbar-brand">
+            <!-- <h1 class="m-0 mt-n2 display-4 text-primary text-uppercase">Justice</h1> -->
+            <img style="width: 130px; height: 130px" src="./img/favicon.png" />
+          </a>
+          <p>
+            نحن نقدم خدمات قانونية موثوقة وفعالة لعملائنا، مع سنوات من الخبرة
+            والاحترافية في جميع مجالات القانون.
+          </p>
+          <div class="d-flex justify-content-start mt-4">
+            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="font-weight-semi-bold text-primary mb-4">روابط شائعة</h4>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>الرئيسية</a
+            >
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>من نحن</a
+            >
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>الخدمات</a
+            >
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>المحامون</a
+            >
+            <a class="text-white" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>تواصل معنا</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="font-weight-semi-bold text-primary mb-4">روابط سريعة</h4>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>الأسئلة الشائعة</a
+            >
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>المساعدة</a
+            >
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>الشروط</a
+            >
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>الخصوصية</a
+            >
+            <a class="text-white" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>خريطة الموقع</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="font-weight-semi-bold text-primary mb-4">
+            النشرة البريدية
+          </h4>
+          <p>اشترك في النشرة البريدية ليصلك كل جديد من خدماتنا وأخبارنا.</p>
+          <div class="w-100">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control border-0"
+                style="padding: 25px"
+                placeholder="بريدك الإلكتروني"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-primary px-4">اشترك</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row p-4 mt-5 mx-0"
+        style="background: rgba(256, 256, 256, 0.05)"
+      >
+        <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+          <p class="m-0 text-white">
+            &copy; <a class="font-weight-bold" href="#">IN BOX</a>. جميع الحقوق
+            محفوظة.
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-right">
+          <p class="m-0 text-white">
+            تصميم بواسطة
+            <a class="font-weight-bold" href="https://htmlcodex.com">
+              فريق داخل الصندوق
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
     <!-- نهاية الفوتر -->
 
-
     <!-- زر العودة للأعلى -->
-    <a href="#" class="btn btn-primary px-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+    <a href="#" class="btn btn-primary px-3 back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
 
     <!-- مكتبات جافاسكريبت -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -353,6 +844,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
